@@ -29,10 +29,13 @@
 		}
 	</style>
 <h1>Table de multiplication</h1>
+<!-- La table est créée avec des balises HTML pour définir la structure de la table 
+     et des boucles for imbriquées sont utilisées pour générer les cellules de la table. -->
 	<table>
 		<thead>
 			<tr>
 				<th>x</th>
+                <!-- La première boucle for crée une ligne d'en-têtes de colonne pour la table avec les chiffres de 1 à 9. Chaque en-tête est encadré par des balises "th". -->
 				<?php
 					for ($i=1; $i<=9; $i++) { // initialise une boucle for qui va s'exécuter 9 fois, en commençant à 1 et en incrémentant de 1 à chaque tour.
 						echo "<th>".$i."</th>"; //  insère un en-tête de colonne qui contient le nombre correspondant à l'itération en cours de la boucle, le tout encadré par des balises "th".
@@ -41,6 +44,7 @@
 			</tr>
 		</thead>
 		<tbody>
+            <!--  La seconde boucle for crée les lignes de la table avec les chiffres de 1 à 9.  -->
 			<?php
 				for ($i=1; $i<=9; $i++) { // initialise une boucle for qui va s'exécuter 9 fois, en commençant à 1 et en incrémentant de 1 à chaque tour.
 					echo "<tr>"; // insère une nouvelle ligne de la table.
