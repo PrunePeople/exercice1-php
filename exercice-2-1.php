@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercice 2 - php</title>
+    <title>Exercice 2 - Mois de l'année non bissextile</title>
 </head>
 
 <body>
@@ -50,7 +50,7 @@
     }
     echo "</table>";
     ?>
-    
+
 
     <h2>Etape 2: Tri par ordre décroissant</h2>
     <?php
@@ -94,5 +94,4 @@
     echo "</form>";
     ?>
 </body>
-
 </html>
